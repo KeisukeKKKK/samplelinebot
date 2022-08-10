@@ -1,5 +1,5 @@
 class WebhookController < ApplicationController
-  CHANNEL = '#bot'
+  CHANNEL = 'bot'
 
   def callback
     body = request.body.read
